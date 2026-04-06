@@ -25,7 +25,7 @@ export default function App() {
   const [hudData, setHudData] = useState(null);
   
   // *** PUT YOUR AZURE WEB APP URL HERE ***
-  const API_BASE = "https://lineageapp-efgpewgbbsazfbbn.centralindia-01.azurewebsites.net/"; 
+  const API_BASE = "https://lineageapp-efgpewgbbsazfbbn.centralindia-01.azurewebsites.net/api"; 
 
   useEffect(() => {
     Promise.all([
