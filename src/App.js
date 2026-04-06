@@ -1,5 +1,3 @@
-Caution - This email is from an external source. Please do not click on links or attachments if sender is unknown or from known person but the content is unusual. Never share your user ID or password under any circumstances.
-
 import React, { useState, useEffect } from "react";
 import ReactFlow, { Background, Controls, useNodesState, useEdgesState, Handle, Position, MarkerType } from "reactflow";
 import dagre from "dagre";
